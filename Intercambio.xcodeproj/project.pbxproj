@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		260B149521EC909D001B77A7 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260B149421EC909D001B77A7 /* MainController.swift */; };
+		260B149721EC90C7001B77A7 /* NewGroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260B149621EC90C7001B77A7 /* NewGroupController.swift */; };
+		260B149A21EC934C001B77A7 /* CoreDataConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260B149921EC934C001B77A7 /* CoreDataConfig.swift */; };
 		268E8CED21CC5BBD00B325B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E8CEC21CC5BBD00B325B9 /* AppDelegate.swift */; };
 		268E8CEF21CC5BBD00B325B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E8CEE21CC5BBD00B325B9 /* ViewController.swift */; };
 		268E8CF221CC5BBD00B325B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268E8CF021CC5BBD00B325B9 /* Main.storyboard */; };
@@ -16,7 +19,7 @@
 		268E8D0821CC5E4900B325B9 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E8D0721CC5E4900B325B9 /* Usuario.swift */; };
 		268E8D0A21CC60E700B325B9 /* Grupo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E8D0921CC60E700B325B9 /* Grupo.swift */; };
 		268E8D0C21CC625D00B325B9 /* Regalo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E8D0B21CC625D00B325B9 /* Regalo.swift */; };
-		26CFEF4B21CC6C390071D54F /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CFEF4A21CC6C390071D54F /* Config.swift */; };
+		26CFEF4B21CC6C390071D54F /* ServiceConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CFEF4A21CC6C390071D54F /* ServiceConfig.swift */; };
 		26CFEF4D21CC6EC70071D54F /* APIUsuarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CFEF4C21CC6EC70071D54F /* APIUsuarios.swift */; };
 		26CFEF4F21CC6F550071D54F /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CFEF4E21CC6F550071D54F /* Service.swift */; };
 		26CFEF5321CC7EA90071D54F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CFEF5221CC7EA90071D54F /* Logger.swift */; };
@@ -27,6 +30,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		260B149421EC909D001B77A7 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		260B149621EC90C7001B77A7 /* NewGroupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGroupController.swift; sourceTree = "<group>"; };
+		260B149921EC934C001B77A7 /* CoreDataConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataConfig.swift; sourceTree = "<group>"; };
 		268E8CE921CC5BBD00B325B9 /* Intercambio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Intercambio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		268E8CEC21CC5BBD00B325B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		268E8CEE21CC5BBD00B325B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,7 +44,7 @@
 		268E8D0721CC5E4900B325B9 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		268E8D0921CC60E700B325B9 /* Grupo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grupo.swift; sourceTree = "<group>"; };
 		268E8D0B21CC625D00B325B9 /* Regalo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regalo.swift; sourceTree = "<group>"; };
-		26CFEF4A21CC6C390071D54F /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		26CFEF4A21CC6C390071D54F /* ServiceConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceConfig.swift; sourceTree = "<group>"; };
 		26CFEF4C21CC6EC70071D54F /* APIUsuarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUsuarios.swift; sourceTree = "<group>"; };
 		26CFEF4E21CC6F550071D54F /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		26CFEF5221CC7EA90071D54F /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
@@ -62,6 +68,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		260B149821EC932F001B77A7 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				260B149921EC934C001B77A7 /* CoreDataConfig.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		268E8CE021CC5BBD00B325B9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +97,7 @@
 		268E8CEB21CC5BBD00B325B9 /* Intercambio */ = {
 			isa = PBXGroup;
 			children = (
+				260B149821EC932F001B77A7 /* CoreData */,
 				268E8D0621CC5C7C00B325B9 /* Extensions */,
 				268E8D0521CC5C6E00B325B9 /* Utils */,
 				268E8D0421CC5C0900B325B9 /* Storyboards */,
@@ -110,7 +125,7 @@
 		268E8D0221CC5BED00B325B9 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				26CFEF4A21CC6C390071D54F /* Config.swift */,
+				26CFEF4A21CC6C390071D54F /* ServiceConfig.swift */,
 				26CFEF4C21CC6EC70071D54F /* APIUsuarios.swift */,
 				26CFEF4E21CC6F550071D54F /* Service.swift */,
 				26CFEF5421CC7F9C0071D54F /* ResponseMapper.swift */,
@@ -122,6 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				268E8CEE21CC5BBD00B325B9 /* ViewController.swift */,
+				260B149421EC909D001B77A7 /* MainController.swift */,
+				260B149621EC90C7001B77A7 /* NewGroupController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -301,13 +318,16 @@
 				268E8D0821CC5E4900B325B9 /* Usuario.swift in Sources */,
 				26CFEF5D21CCF8860071D54F /* UIViewController+Ext.swift in Sources */,
 				26CFEF5321CC7EA90071D54F /* Logger.swift in Sources */,
+				260B149721EC90C7001B77A7 /* NewGroupController.swift in Sources */,
 				26CFEF4D21CC6EC70071D54F /* APIUsuarios.swift in Sources */,
 				268E8CEF21CC5BBD00B325B9 /* ViewController.swift in Sources */,
 				268E8CF521CC5BBD00B325B9 /* Intercambio.xcdatamodeld in Sources */,
-				26CFEF4B21CC6C390071D54F /* Config.swift in Sources */,
+				26CFEF4B21CC6C390071D54F /* ServiceConfig.swift in Sources */,
+				260B149521EC909D001B77A7 /* MainController.swift in Sources */,
 				26CFEF4F21CC6F550071D54F /* Service.swift in Sources */,
 				268E8D0C21CC625D00B325B9 /* Regalo.swift in Sources */,
 				268E8CED21CC5BBD00B325B9 /* AppDelegate.swift in Sources */,
+				260B149A21EC934C001B77A7 /* CoreDataConfig.swift in Sources */,
 				26F2747421CD0933008B34A1 /* Loader.swift in Sources */,
 				268E8D0A21CC60E700B325B9 /* Grupo.swift in Sources */,
 			);

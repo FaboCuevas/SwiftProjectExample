@@ -17,7 +17,7 @@ class APIUsuarios {
         _ pass: String,
         success: @escaping (_ entity : Usuario) -> Void,
         fail : @escaping (_ errMsg : String) -> Void) {
-        let url = Config.login(user: user, pass: pass)
+        let url = ServiceConfig.login(user: user, pass: pass)
         let params : [String:Any] = [:]
         let request = Service.sharedInstance.get(url, params: params)
         //(DataResponse<Any>) -> {}Void

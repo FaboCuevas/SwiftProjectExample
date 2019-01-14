@@ -18,6 +18,7 @@ class Grupo: Mappable {
     var usuarios : [Usuario] = []
     
     init(){
+        
     }
     
     required init?(map: Map) {

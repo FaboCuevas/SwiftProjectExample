@@ -10,7 +10,7 @@ import Foundation
 
 private let URL_BASE = "https://fccursoswift.000webhostapp.com/api/"
 
-struct Config{
+struct ServiceConfig{
     static let listaUsuarios = "\(URL_BASE)usuarios"
     static func login (user: String, pass: String) -> String{
         return "\(URL_BASE)login/user=\(user)&&pass=\(pass)"

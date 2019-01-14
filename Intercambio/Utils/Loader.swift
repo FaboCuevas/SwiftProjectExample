@@ -10,7 +10,18 @@ import Foundation
 import NVActivityIndicatorView
 
 class Loader {
-    private let activityData = ActivityData(size: CGSize(width: 50.0, height: 50.0), message: nil, messageFont: nil, messageSpacing: nil, type: NVActivityIndicatorType.ballPulse, color: nil, padding: nil, displayTimeThreshold: 0, minimumDisplayTime: 0, backgroundColor: nil, textColor: nil)
+    private let activityData = ActivityData(
+        size: CGSize(width: 50.0, height: 50.0),
+        message: nil,
+        messageFont: nil,
+        messageSpacing: nil,
+        type: NVActivityIndicatorType.ballPulse,
+        color: nil,
+        padding: nil,
+        displayTimeThreshold: 0,
+        minimumDisplayTime: 0,
+        backgroundColor: nil,
+        textColor: nil)
     
     public class var sharedInstance: Loader {
         struct Static {
